@@ -3,7 +3,7 @@
 
     "name": "Anti Zhihu Live",
     "description": "This extension dispplay zhihu without Lives...",
-    "version": "1.0",
+    "version": "0.1",
 
     "browser_action": {
         "default_icon": "./res/icon.jpg",

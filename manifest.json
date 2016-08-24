@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+
+    "name": "Anti Zhihu Live",
+    "description": "This extension dispplay zhihu without Lives...",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "./res/icon.jpg",
+        "default_title": "Anti Zhihu Live"
+    },
+    "content_scripts": [{
+        "matches": ["https://*.zhihu.com/*"],
+        "css":["./res/style.css"],
+        "all_frames": true
+    }]
+}
